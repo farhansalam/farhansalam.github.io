@@ -1,0 +1,44 @@
+@font-face {
+font-family: penna;
+src: url("fonts/penna.otf") format("opentype");
+}
+
+
+
+
+.resume-background-image{
+	z-index: -99;
+	position: fixed;
+	max-width: 100%; 
+	background-size: cover; 
+	background-position:inherit;
+	/* height: auto; */
+	width: 100%;
+	background-image: url('./../images/resume_tone.png');
+	background-repeat: no-repeat;
+    
+	
+ 	
+	height: 41rem;
+	/* background: rgba(0,255,255, 0.5); */     
+}
+.resume-background-image-layer{
+	background: rgba(0, 0, 0, 0.65);
+
+	width: 100%;
+	height: 100%;
+}
+
+
+.techs{
+	list-style: circle;
+	text-align: left;
+	margin-left: 2rem;
+	
+}
+body div{
+	color:black;
+}
+h4{
+	color:rgba(255, 255, 255, 0.8);
+}

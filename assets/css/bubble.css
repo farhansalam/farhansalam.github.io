@@ -1,0 +1,26 @@
+.bubble 
+{
+position: relative;
+width: 440px;
+height: 60px;
+border: solid;
+padding: 0px;
+/* background: #FFFFFF; */
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+
+.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 25px 14px 0px;
+border-color: #FFFEC3 transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -23px;
+left: 10rem;
+}

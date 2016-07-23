@@ -1,0 +1,132 @@
+@font-face {
+font-family: penna;
+src: url("fonts/penna.otf") format("opentype");
+}
+
+
+
+
+.contact-background-image{
+	z-index: -99;
+	position: fixed;
+	max-width: 100%; 
+	background-size: cover; 
+	/* background-position:inherit; */
+	/* height: auto; */
+	width: 100%;
+	background-image: url('./../images/blah.jpg');
+	background-repeat: no-repeat;
+    
+	
+ 	
+	height: 41rem;
+	/* background: rgba(0,255,255, 0.5); */     
+}
+.contact-background-image-layer{
+	background: rgba(0, 0, 0, 0.65);
+
+	width: 100%;
+	height: 100%;
+}
+.image{
+	
+	height: 20rem;
+	width: 18rem;
+	background-size: cover;
+	float: center;
+background-color: black;
+padding-top: 0.5rem;
+
+}
+
+
+
+.red
+{color: red;
+}
+
+input[type="submit"]{
+	background-color: #524E4E;
+	width: 9rem;
+	margin-top: 1.325rem;
+	float: right;
+	color:white;
+	height: 3rem;
+	font-size: 1.15rem;
+	
+}
+input[type='submit']:hover, input[type='submit']:focus{
+	background-color: green;
+
+	-webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.margin{
+	margin-top: 3rem;
+
+}
+
+.image_text{
+	color:white;
+	text-align: center;
+}
+.black {
+  background-color: black;
+  
+}
+
+.blue {
+  background-color: blue;
+ 
+}
+
+.red {
+ color: red;
+}
+.margin{margin-top:2rem;}
+.footer{
+	
+	
+	background-color: rgba(87, 87, 87, 0.83);
+	text-align: center;
+	color: white;
+	vertical-align: center;
+	padding-top: 3rem;
+}
+
+.footer_social a
+{
+margin-left:1rem;
+margin-right:1rem;
+}
+
+.nav_logo{
+cursor: auto;
+ float: left;
+ margin-left: 5rem;
+ z-index: 1000;
+width:5rem;
+height:5rem;
+ position: absolute;
+ margin-top: 0.6rem ;
+ vertical-align: center;
+
+}
+.invert{
+	 -webkit-filter: invert(100%);
+    filter: invert(100%);
+
+}
+.nav{
+	background-color:red;
+	transition: all 0.25 ease;
+	top:0;
+	width:100%;
+	padding:1em;
+}
+
+
+

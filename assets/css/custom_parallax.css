@@ -1,0 +1,15 @@
+.scrollable{
+    position: absolute;
+	
+    overflow-y: hidden;
+    top: 41rem;
+    width: 100%;
+    background-color: white;
+}
+
+.main-slide{
+  position: fixed;
+  overflow-y: scroll;
+}
+
+
