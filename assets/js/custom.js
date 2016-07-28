@@ -178,6 +178,16 @@ $(document).ready(function(){
  	
 });
 
+	//initialize swiper when document ready  
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical',
+    loop: true,
+    autoplay: 7000,
+		pagination: '.swiper-pagination',
+    paginationClickable: true,  
+
+  })    
+
 
 // 	Skype.ui({
 //       "name": "chat",
