@@ -51,43 +51,6 @@ $(document).ready(function(){
   	}
 	});
 
-// 	$langSwap = $('#lang-swap');
-// 	$descSpan = $('#lang-desc');
-// 	var langs = ['PHP','Ruby on Rails','NodeJS'];
-// 	var langsDesc = ['larvel','api','express'];
-// 	i=-1;
-
-// 	for (var i = 0; i < langs.length; i++) {
-// 		$langSwap.append($('<span />',{text:langs[i]}));
-// 		$descSpan.append($('<span />',{text:langsDesc[i]}));
-// 	};
-
-// 	$span = $("span", $langSwap).hide(); 
-// 	$spanDesc = $("span",$descSpan).hide();
-
-
-// 	(function loop(){
-// 		i= ++i % langs.length;
-// 		$langSwap.animate({width: $span.eq(i).width() });
-// 		$descSpan.animate({width: $spanDesc.eq(i).width() });
-
-// 		$spanDesc.stop().fadeOut(500).eq(i).fadeIn(1000).delay(5000).show(i);
-// 		$span.stop().fadeOut(500).eq(i).fadeIn(1000).delay(5000).show(i, loop);
-
-// 	}());
-
-	
-
-// 	$('.menu').click(function() {
-
-//    		$('html,body').animate({
-//    		    scrollTop: $('#'+$(this).text()).position().top
-//    		}, 800, function() {
-
-        
-//     	});
-// 	});
-
 
 	$('.smooth-scroll').on('click', function(e){
     	e.preventDefault();
@@ -182,19 +145,10 @@ $(document).ready(function(){
   var mySwiper = new Swiper ('.swiper-container', {
     direction: 'vertical',
     loop: true,
-    autoplay: 7000,
 		pagination: '.swiper-pagination',
     paginationClickable: true,  
 
   })    
 
-
-// 	Skype.ui({
-//       "name": "chat",
-//       "element": "SkypeButton_Call_farhansalam69_1",
-//       "participants": ["farhansalam69"],
-//       "imageColor": "white",
-//       "imageSize": 24
-//     });
 
 });
