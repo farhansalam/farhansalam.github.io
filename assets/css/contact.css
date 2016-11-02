@@ -30,12 +30,15 @@ src: url("fonts/penna.otf") format("opentype");
 }
 .image{
 	
-	height: 20rem;
-	width: 18rem;
-	background-size: cover;
-	float: center;
-background-color: black;
-padding-top: 0.5rem;
+	height: 15rem;
+	width: 15rem;
+	background-size: contain;
+	border-radius: 50%;
+	float: left;
+	background-image: url('./../images/farhan.jpg');
+	background-repeat: no-repeat;
+	margin: 2rem 0 0 5rem;
+	
 
 }
 
