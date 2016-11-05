@@ -1,6 +1,6 @@
 @font-face {
-font-family: penna;
-src: url("fonts/penna.otf") format("opentype");
+  font-family: penna;
+  src: url("fonts/penna.otf") format("opentype");
 }
 
 
@@ -29,7 +29,7 @@ src: url("fonts/penna.otf") format("opentype");
 	height: 100%;
 }
 .image{
-	
+	box-shadow: 0px 4px 5px gray;
 	height: 15rem;
 	width: 15rem;
 	background-size: contain;
@@ -38,14 +38,19 @@ src: url("fonts/penna.otf") format("opentype");
 	background-image: url('./../images/farhan.jpg');
 	background-repeat: no-repeat;
 	margin: 2rem 0 0 5rem;
-	
-
 }
 
-
+@media (min-width: 1000px) {
+  .image {
+    margin-left: 8rem !important;
+  }
+  .contact-form {
+  }
+}
 
 .red
-{color: red;
+{
+  color: red;
 }
 
 input[type="submit"]{
@@ -87,7 +92,7 @@ input[type='submit']:hover, input[type='submit']:focus{
 }
 
 .red {
- color: red;
+  color: red;
 }
 .margin{margin-top:2rem;}
 .footer{
@@ -102,20 +107,20 @@ input[type='submit']:hover, input[type='submit']:focus{
 
 .footer_social a
 {
-margin-left:1rem;
-margin-right:1rem;
+  margin-left:1rem;
+  margin-right:1rem;
 }
 
 .nav_logo{
-cursor: auto;
- float: left;
- margin-left: 5rem;
- z-index: 1000;
-width:5rem;
-height:5rem;
- position: absolute;
- margin-top: 0.6rem ;
- vertical-align: center;
+  cursor: auto;
+  float: left;
+  margin-left: 5rem;
+  z-index: 1000;
+  width:5rem;
+  height:5rem;
+  position: absolute;
+  margin-top: 0.6rem ;
+  vertical-align: center;
 
 }
 .invert{
